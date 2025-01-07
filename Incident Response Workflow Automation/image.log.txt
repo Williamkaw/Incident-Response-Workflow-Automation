@@ -1,0 +1,120 @@
+
+-----------------------------Start of TX1 Log Entry-----------------------------
+
+Task: Disk Duplication
+Status: Ok
+Created: Sun Nov 24 14:23:52 2024 (UTC+0000)
+Started: Sun Nov 24 14:23:52 2024 (UTC+0000)
+Closed: Sun Nov 24 15:16:14 2024 (UTC+0000)
+Elapsed: 52 min 
+Username: User1
+Examiner: GROUP_5_WEEKEND
+Case ID: 
+  005
+Case Notes: 
+  TEST CASE
+
+Imager App: TX1
+Imager Ver: 22.3.0
+TX1 S/N: 000ecc58037098
+
+------------------------------Source Disk-------------------------------
+
+Interface: SATA
+Port: SATA/SAS 1
+Model: WDC WD1600BEVT-00A23T0
+Firmware revision: 01.01A01
+Serial number: WD-WXE1A61R1286
+SCSI LUN: 0
+Capacity in bytes: 160,041,885,696 (160.0 GB)
+Block Size: 512 bytes
+Block Count: 312,581,808
+Partition table: MBR
+Partition 1
+  Start Sector: 2,048
+  Sector Count: 204,800
+  Partition Encryption: None detected
+    Filesystem
+      Type: NTFS
+      Block Size: 4,096 bytes
+      Total Blocks: 25,599
+      Free Blocks: 19,352
+      Total bytes: 104,853,504 (104.8 MB)
+      In Use bytes: 25,587,712 (25.5 MB)
+Partition 2
+  Start Sector: 206,848
+  Sector Count: 312,371,200
+  Partition Encryption: None detected
+    Filesystem
+      Type: NTFS
+      Block Size: 4,096 bytes
+      Total Blocks: 39,046,399
+      Free Blocks: 27,016,478
+      Total bytes: 159,934,050,304 (159.9 GB)
+      In Use bytes: 49,274,556,416 (49.2 GB)
+ATA-specific info
+  Power-ON Block Count: 312,581,808
+  HPA Block Count: 312,581,808
+  DCO Block Count: 312,581,808
+  Supports AMA: No
+Tableau Encrypted: No
+Whole disk encryption: None detected
+Error granularity: 32,768 bytes
+
+--------------------------------Imaging---------------------------------
+
+Automated Job: No
+Output file format: E01
+Chunk size in bytes: 2,000,000,000 (2.0 GB)
+
+---------------------------Image Destination----------------------------
+
+Interface: USB
+Port: USB
+Model: WD My Passport 2626
+Firmware revision: 1034
+Serial number: WX72A517PLK1
+SCSI LUN: 0
+USB Serial number: 5758373241353137504C4B31
+USB VID: 0x1058
+USB PID: 0x2626
+USB interface class: 0x08
+USB interface subclass: 0x06
+USB interface protocol: 0x50
+Capacity in bytes: 2,000,365,289,472 (2.0 TB)
+Block Size: 512 bytes
+Block Count: 3,906,963,456
+Partition table: GPT
+Partition 1
+  Start Sector: 2,048
+  Sector Count: 3,906,959,360
+  Partition Encryption: None detected
+    Filesystem (Target Filesystem)
+      Type: NTFS
+      Block Size: 4,096 bytes
+      Total Blocks: 488,369,919
+      Free Blocks: 488,332,769
+      Total bytes: 2,000,363,188,224 (2.0 TB)
+      In Use bytes: 152,166,400 (152.1 MB)
+Tableau Encrypted: No
+Whole disk encryption: None detected
+Folder: /tx1_images/2024_11_24_14_23_52/
+File name base: image
+Verification Status: Finished OK
+    Verification Sha1: d6e8 9158 7868 c0e5 334e 607d e61a 93cf 4cd3 e67d
+    Verification Md5: c226 bf1a eeb6 9183 f961 72d9 7299 cbcf
+
+--------------------------Duplication Results---------------------------
+
+LBA Range Duplicated: Entire Source Disk
+Total recoverable errors: 1
+Total unrecoverable errors: 1
+Acquisition Sha1: d6e8 9158 7868 c0e5 334e 607d e61a 93cf 4cd3 e67d
+Acquisition Md5: c226 bf1a eeb6 9183 f961 72d9 7299 cbcf
+
+-----------------------------List of Errors-----------------------------
+
+Error # 1: Read error (source), address=67013504, length=64
+
+------------------------------End of TX1 Log Entry------------------------------
+
